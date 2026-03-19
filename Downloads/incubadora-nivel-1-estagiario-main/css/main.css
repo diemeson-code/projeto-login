@@ -174,3 +174,42 @@ body {
     color: #444;
     font-weight: 500;
 }
+/* =========================
+   💳 FOOTER PAGAMENTOS FIX
+========================= */
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.footer__bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__payment-text {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.footer__payment-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__payment-icons span {
+    background: rgba(255,255,255,0.08);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.footer__payment-icons span:hover {
+    background: rgba(255,255,255,0.2);
+}
