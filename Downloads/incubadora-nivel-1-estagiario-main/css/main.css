@@ -213,3 +213,64 @@ body {
 .footer__payment-icons span:hover {
     background: rgba(255,255,255,0.2);
 }
+
+.footer__payment-methods {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__payment-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__payment-icons span {
+    background: rgba(255,255,255,0.08);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.hero__stat {
+    background: white;
+    padding: 18px 25px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.hero__stat:hover {
+    transform: translateY(-5px);
+}
+
+.hero__stat-value {
+    font-size: 24px;
+    font-weight: 800;
+    color: #00b894;
+}
+
+.hero__stat-label {
+    font-size: 13px;
+    color: #777;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+}
+
+.offers {
+    margin-top: -40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.section__title {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ff6a00, #ff3c00);
+    border: none;
+}
