@@ -274,3 +274,39 @@ body {
     background: linear-gradient(135deg, #ff6a00, #ff3c00);
     border: none;
 }
+
+.benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .benefits__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.benefit {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.benefit:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,255,200,0.15);
+}
+
+.benefit__icon {
+    font-size: 30px;
+    color: #00ffcc;
+    margin-bottom: 15px;
+}
+
+.benefit__icon {
+    font-size: 30px;
+    color: #00ffcc;
+    margin-bottom: 15px;
+}
