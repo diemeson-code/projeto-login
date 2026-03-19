@@ -322,3 +322,18 @@ padding: 12px;
     padding: 6px;
     border-radius: 8px;
 }
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.footer__payment-icons {
+    display: flex;
+    gap: 10px;
+}
