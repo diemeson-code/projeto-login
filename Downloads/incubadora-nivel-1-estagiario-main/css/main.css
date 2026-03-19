@@ -146,12 +146,9 @@ body {
     color: #444 !important; /* força aparecer em fundo claro */
     font-weight: 500;
 }
-.hero__stat {
-    background: rgba(0, 0, 0, 0.05);
-    padding: 15px 20px;
-    border-radius: 12px;
-    text-align: center;
-}
+/* =========================
+   📊 HERO STATS (CORREÇÃO + MELHORIA)
+========================= */
 
 .hero__stats {
     display: flex;
@@ -159,8 +156,21 @@ body {
     margin-top: 25px;
 }
 
+.hero__stat {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
 .hero__stat-value {
     font-size: 22px;
     font-weight: 700;
     color: #00b894;
+}
+
+.hero__stat-label {
+    font-size: 13px;
+    color: #444;
+    font-weight: 500;
 }
