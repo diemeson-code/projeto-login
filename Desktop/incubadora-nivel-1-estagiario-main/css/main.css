@@ -22,9 +22,9 @@ MAIN CSS - Importações modulares
 
 /* HERO */
 .hero {
-background: linear-gradient(to bottom, #f8f9fa #e9ecef);
+background: linear-gradient(to bottom,#f8f9fa,#e9ecef);
 }
-
+/* #f8f9fa*/
 /* Badge */
 .hero__badge-float {
 position: absolute;
@@ -54,7 +54,7 @@ margin-top: 25px;
 }
 
 .hero__stat {
-background: white;
+background:#ff6b35;
 padding: 18px 25px;
 border-radius: 14px;
 text-align: center;
@@ -70,11 +70,13 @@ transform: translateY(-5px);
 font-size: 24px;
 font-weight: 800;
 color: #00b894;
+
+
 }
 
 .hero__stat-label {
 font-size: 13px;
-color: #777;
+color: #111;
 }
 
 /* OFFERS */
