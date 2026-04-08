@@ -22,7 +22,8 @@ MAIN CSS - Importações modulares
 
 /* HERO */
 .hero {
-background: linear-gradient(to bottom,#f8f9fa,#e9ecef);
+background: linear-gradient(135deg,#0f172a,#020617);
+color:white;
 }
 /* #f8f9fa*/
 /* Badge */
@@ -66,24 +67,23 @@ transition: 0.3s;
 
 .hero__stat:hover {
 transform: translateY(-5px);
+box-shadow: 0 12px 25px rgba(255,107,44,0.4);
 }
 
 .hero__stat-value {
 display: block;
-font-size: 22px;
-font-weight: bold;
+font-size: 24px;
 font-weight: 800;
 color: white;
-background: #ff6b2c;
-
-
 }
+
+
 
 .hero__stat-label {
 font-size: 14px;
 font-weight: bold;
 opacity: 0.9;
-color: #111;
+color: rgba(255,255,255,0.9);
 }
 
 
@@ -102,21 +102,35 @@ font-weight: 800;
 
 /* BOTÃO */
 .btn-primary {
-background: linear-gradient(135deg, #ff6a00, #ff3c00);
-border: none;
+/*background: linear-gradient(135deg, #ff6a00, #ff3c00);
+border: none;*/
+  background: #ff6b2c;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
 }
+
+.btn-primary:hover {
+  background: #e55a20;
+  transform: scale(1.05);
+}
+
 
 /* PRODUCT CARD */
 .product-card {
-background: #111;
-border-radius: 16px;
-overflow: hidden;
+background:white;   /* #111;*/
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+/*overflow: hidden;*/
 transition: 0.3s;
 position: relative;
 }
 
 .product-card:hover {
-transform: translateY(-10px) scale(1.02);
+transform: translateY(-5px) scale(1.02);
 box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 
@@ -243,13 +257,6 @@ padding: 12px;
    💳 FOOTER PREMIUM
 ========================= */
 
-.footer__bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-}
 
 /* Container direita */
 .footer__bottom-right {
@@ -309,15 +316,6 @@ padding: 12px;
 }
 
 
-.footer__bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    text-align: center;
-}
 
 .footer__bottom-right {
     display: flex;
