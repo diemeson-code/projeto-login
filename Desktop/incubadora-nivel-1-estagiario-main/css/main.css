@@ -24,6 +24,7 @@ MAIN CSS - Importações modulares
 .hero {
 background: linear-gradient(135deg,#0f172a,#020617);
 color:white;
+padding-bottom:120px;
 }
 /* #f8f9fa*/
 /* Badge */
@@ -89,15 +90,30 @@ color: rgba(255,255,255,0.9);
 
 /* OFFERS */
 .offers {
-margin-top: -40px;
+background:white;
+margin-top:-80px;
+padding:60px 0;
+border-top-left-radius:40px;
+border-top-right-radius:40px;
+position:relative;
+z-index:2;
+}/*
+background: white;
+margin-top: -60px;
+padding-top: -60px 0;
 border-top-left-radius: 40px;
 border-top-right-radius: 40px;
+position:relative;
+z-index:2;*/
+
 }
 
 /* TITULOS */
 .section__title {
 font-size: 34px;
 font-weight: 800;
+color:white;
+margin-bottom:10px;
 }
 
 /* BOTÃO */
