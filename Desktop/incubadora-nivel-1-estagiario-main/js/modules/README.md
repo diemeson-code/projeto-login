@@ -83,7 +83,7 @@ const stars = generateStars(4.5);
 
 Galeria de produtos com filtros:
 
-- Filtar por categoria
+- Filtrar por categoria
 - Filtrar por preço (min/max)
 - Ordenação (preço, nome, rating)
 - Busca em tempo real
